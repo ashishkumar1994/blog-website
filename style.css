@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 10px 5px rgb(10, 186, 72);
+  position: sticky;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+/* nav-left */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left img {
+  width: 200px;
+  height: 100px;
+}
+.nav-left h1 {
+  font-size: 60px;
+}
+/* nav-right */
+.nav-right a {
+  text-decoration: none;
+  padding: 50px;
+  font-size: 30px;
+  color: crimson;
+}
+.nav-right a:hover {
+  text-transform: uppercase;
+  text-shadow: 2px 3px rgb(12, 219, 105);
+  color: brown;
+}
+/* poster */
+.poster1 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.poster {
+  margin-top: 30px;
+  text-align: center;
+}
+.poster h1 {
+  border: solid 3px red;
+  border-radius: 20px;
+  padding-top: 20px;
+  color: rgb(13, 8, 3);
+  font-size: 80px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+.content {
+  text-align: center;
+}
+/* content  */
+.fighter1 {
+  padding-top: 30px;
+  max-width: 60%;
+  margin: 5px auto;
+}
+.fighter1 h2 {
+  color: rgb(235, 149, 1);
+  font-size: 40px;
+}
+.fighter1 p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.fighter1 img {
+  box-shadow: 5px 5px 5px 5px rgb(221, 192, 4);
+} /* foter-content */
+.footer {
+  border-radius: 20px;
+  margin-top: 50px;
+  background-color: rgb(242, 227, 9);
+}
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.footer-1 h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  color: darkred;
+}
+.footer-1 img {
+  width: 40px;
+  height: 40px;
+}
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.footer-2 h2 {
+  color: rgb(234, 7, 7);
+}
+.footer-2 a {
+  display: flex;
+}
